@@ -13,7 +13,7 @@ def create_packet(seq_num, data):
 # 要傳送的資料列表
 data_list = ["Hello", "this", "is", "reliable", "UDP test"]
 
-# Server 的 IP 和 port（請改成你 Server 電腦的 IP）
+# Server 的 IP 和 port（Server 電腦的 IP）
 server_addr = ('192.168.0.87', 9999)
 
 # 傳送每筆資料
