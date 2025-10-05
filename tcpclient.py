@@ -1,6 +1,6 @@
 import socket
 
-SERVER_IP = "127.0.0.1"  # 伺服端 IP (如果跨電腦，改成伺服端的 IP)
+SERVER_IP = "192.168.0.87"  # 伺服端 IP (如果跨電腦，改成伺服端的 IP)
 PORT = 8888 # 必須跟伺服端一致
 
 # 建立 TCP socket
