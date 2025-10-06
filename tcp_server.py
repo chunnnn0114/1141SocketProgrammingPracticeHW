@@ -1,7 +1,7 @@
 # tcp_server.py
 import socket
 
-HOST = "127.0.0.1"   # IP
+HOST = "0.0.0.0"   # 監聽所有網卡
 PORT = 8888      # 使用的通訊埠(client和server的Port要一致)
 
 # 建立 TCP socket (SOCK_STREAM)
@@ -31,4 +31,5 @@ conn.close()
 server.close()
 
 # 確保結束時有訊息
+
 print("TCP Server closed.")   
