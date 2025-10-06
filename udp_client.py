@@ -1,7 +1,7 @@
 # udp_client.py
 import socket
 
-SERVER_IP = "127.0.0.1"  # 伺服端 IP
+SERVER_IP = "172.20.10.3"  # 伺服端 IP
 PORT = 9999              # 必須與伺服端一致 (建議改成和 TCP 不同的 port)
 
 # 建立 UDP socket
@@ -23,4 +23,5 @@ print("Received from server:", data.decode())
 client.close()
 
 # 提示結束
+
 print("UDP Client closed.")  
